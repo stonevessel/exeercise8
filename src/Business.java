@@ -1,7 +1,7 @@
-public class business extends Contacts{
+public class Business extends Contacts{
     private String phoneNum;
 
-    public business(String name, String email, String phoneNum) {
+    public Business(String name, String email, String phoneNum) {
         super(name, email);
         this.phoneNum = phoneNum;
     }
